@@ -1,0 +1,198 @@
+{
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-D1LuMI3I.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-D_cYUPeE.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400-DZaxPHgR.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-BjRzuEpd.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-D0aA9rwL.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-CTAAxXor.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf": {
+    "file": "assets/fa-v4compatibility-CCth-dXg.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
+    "file": "assets/fa-v4compatibility-C9RhG_FT.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
+  },
+  "src/Resources/assets/css/app.css": {
+    "file": "assets/app-KfaxMV_m.css",
+    "src": "src/Resources/assets/css/app.css",
+    "isEntry": true
+  },
+  "src/Resources/assets/fonts/bagisto-shop.woff": {
+    "file": "assets/bagisto-shop-BHAKyv0r.woff",
+    "src": "src/Resources/assets/fonts/bagisto-shop.woff"
+  },
+  "src/Resources/assets/images/Kora-dark.svg": {
+    "file": "assets/Kora-dark-DcsVWNDM.svg",
+    "src": "src/Resources/assets/images/Kora-dark.svg"
+  },
+  "src/Resources/assets/images/Kora-light.svg": {
+    "file": "assets/Kora-light-BPGL8EGi.svg",
+    "src": "src/Resources/assets/images/Kora-light.svg"
+  },
+  "src/Resources/assets/images/Panabay logo-02.svg": {
+    "file": "assets/Panabay logo-02-BkeJuwt_.svg",
+    "src": "src/Resources/assets/images/Panabay logo-02.svg"
+  },
+  "src/Resources/assets/images/Panabay logo-04.svg": {
+    "file": "assets/Panabay logo-04-ByzaqAO9.svg",
+    "src": "src/Resources/assets/images/Panabay logo-04.svg"
+  },
+  "src/Resources/assets/images/Panabay logo-06.svg": {
+    "file": "assets/Panabay logo-06-DaMdagUM.svg",
+    "src": "src/Resources/assets/images/Panabay logo-06.svg"
+  },
+  "src/Resources/assets/images/apple-touch-icon.png": {
+    "file": "assets/apple-touch-icon-BRPnO4gf.png",
+    "src": "src/Resources/assets/images/apple-touch-icon.png"
+  },
+  "src/Resources/assets/images/cash-on-delivery.png": {
+    "file": "assets/cash-on-delivery-Ck2rBtSq.png",
+    "src": "src/Resources/assets/images/cash-on-delivery.png"
+  },
+  "src/Resources/assets/images/default-language.svg": {
+    "file": "assets/default-language-BxH8WlkY.svg",
+    "src": "src/Resources/assets/images/default-language.svg"
+  },
+  "src/Resources/assets/images/empty-cart.svg": {
+    "file": "assets/empty-cart-uHrE7G24.svg",
+    "src": "src/Resources/assets/images/empty-cart.svg"
+  },
+  "src/Resources/assets/images/empty-dwn-product.png": {
+    "file": "assets/empty-dwn-product-DYRIKFWL.png",
+    "src": "src/Resources/assets/images/empty-dwn-product.png"
+  },
+  "src/Resources/assets/images/favicon-96x96.png": {
+    "file": "assets/favicon-96x96-DNsROfFj.png",
+    "src": "src/Resources/assets/images/favicon-96x96.png"
+  },
+  "src/Resources/assets/images/favicon.ico": {
+    "file": "assets/favicon-BJ92dynK.ico",
+    "src": "src/Resources/assets/images/favicon.ico"
+  },
+  "src/Resources/assets/images/favicon.svg": {
+    "file": "assets/favicon-yANNKrRU.svg",
+    "src": "src/Resources/assets/images/favicon.svg"
+  },
+  "src/Resources/assets/images/flag.png": {
+    "file": "assets/flag-ClCNUw8m.png",
+    "src": "src/Resources/assets/images/flag.png"
+  },
+  "src/Resources/assets/images/hero-image.jpg": {
+    "file": "assets/hero-image-BlVTwpsv.jpg",
+    "src": "src/Resources/assets/images/hero-image.jpg"
+  },
+  "src/Resources/assets/images/hero-image.webp": {
+    "file": "assets/hero-image-DwKg3YHc.webp",
+    "src": "src/Resources/assets/images/hero-image.webp"
+  },
+  "src/Resources/assets/images/large-product-placeholder.webp": {
+    "file": "assets/large-product-placeholder-B9xoAuKQ.webp",
+    "src": "src/Resources/assets/images/large-product-placeholder.webp"
+  },
+  "src/Resources/assets/images/logo-s.svg": {
+    "file": "assets/logo-s-CRei64Q_.svg",
+    "src": "src/Resources/assets/images/logo-s.svg"
+  },
+  "src/Resources/assets/images/logo.svg": {
+    "file": "assets/logo-PKh7cnFJ.svg",
+    "src": "src/Resources/assets/images/logo.svg"
+  },
+  "src/Resources/assets/images/medium-product-placeholder.webp": {
+    "file": "assets/medium-product-placeholder-INODB-G2.webp",
+    "src": "src/Resources/assets/images/medium-product-placeholder.webp"
+  },
+  "src/Resources/assets/images/money-transfer.png": {
+    "file": "assets/money-transfer-BNjtOcYo.png",
+    "src": "src/Resources/assets/images/money-transfer.png"
+  },
+  "src/Resources/assets/images/no-address.png": {
+    "file": "assets/no-address-BHTy4apn.png",
+    "src": "src/Resources/assets/images/no-address.png"
+  },
+  "src/Resources/assets/images/official_logo.svg": {
+    "file": "assets/official_logo-Bu5iqq5a.svg",
+    "src": "src/Resources/assets/images/official_logo.svg"
+  },
+  "src/Resources/assets/images/official_logo_white.svg": {
+    "file": "assets/official_logo_white-qqLy9GrT.svg",
+    "src": "src/Resources/assets/images/official_logo_white.svg"
+  },
+  "src/Resources/assets/images/paypal.png": {
+    "file": "assets/paypal-CIu1GKlz.png",
+    "src": "src/Resources/assets/images/paypal.png"
+  },
+  "src/Resources/assets/images/review.png": {
+    "file": "assets/review-ZWqERyaT.png",
+    "src": "src/Resources/assets/images/review.png"
+  },
+  "src/Resources/assets/images/site.webmanifest": {
+    "file": "assets/site-DGWt2i2_.webmanifest",
+    "src": "src/Resources/assets/images/site.webmanifest"
+  },
+  "src/Resources/assets/images/small-product-placeholder.webp": {
+    "file": "assets/small-product-placeholder-CMT26fOX.webp",
+    "src": "src/Resources/assets/images/small-product-placeholder.webp"
+  },
+  "src/Resources/assets/images/spinner.svg": {
+    "file": "assets/spinner-CWS6ej98.svg",
+    "src": "src/Resources/assets/images/spinner.svg"
+  },
+  "src/Resources/assets/images/thank-you.png": {
+    "file": "assets/thank-you-mhMpuEVL.png",
+    "src": "src/Resources/assets/images/thank-you.png"
+  },
+  "src/Resources/assets/images/user-placeholder.png": {
+    "file": "assets/user-placeholder-C_FiyGd9.png",
+    "src": "src/Resources/assets/images/user-placeholder.png"
+  },
+  "src/Resources/assets/images/web-app-manifest-192x192.png": {
+    "file": "assets/web-app-manifest-192x192-BVMQF7hd.png",
+    "src": "src/Resources/assets/images/web-app-manifest-192x192.png"
+  },
+  "src/Resources/assets/images/web-app-manifest-512x512.png": {
+    "file": "assets/web-app-manifest-512x512-BURVAduH.png",
+    "src": "src/Resources/assets/images/web-app-manifest-512x512.png"
+  },
+  "src/Resources/assets/images/wishlist.png": {
+    "file": "assets/wishlist-DPRG46v-.png",
+    "src": "src/Resources/assets/images/wishlist.png"
+  },
+  "src/Resources/assets/js/app.js": {
+    "file": "assets/app-7SNXJmQt.js",
+    "name": "app",
+    "src": "src/Resources/assets/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-CEaK9d96.css"
+    ],
+    "assets": [
+      "assets/fa-brands-400-D_cYUPeE.woff2",
+      "assets/fa-brands-400-D1LuMI3I.ttf",
+      "assets/fa-regular-400-BjRzuEpd.woff2",
+      "assets/fa-regular-400-DZaxPHgR.ttf",
+      "assets/fa-solid-900-CTAAxXor.woff2",
+      "assets/fa-solid-900-D0aA9rwL.ttf",
+      "assets/fa-v4compatibility-C9RhG_FT.woff2",
+      "assets/fa-v4compatibility-CCth-dXg.ttf"
+    ]
+  }
+}
