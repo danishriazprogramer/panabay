@@ -12,9 +12,7 @@
 Homestead.json
 Homestead.yaml
 /ignorables/*
-/node_modules
 npm-debug.log
-package-lock.json
 /playwright-report
 /public/css
 /public/js
@@ -27,7 +25,5 @@ package-lock.json
 /test-results
 /vendor
 /storage
-yarn.lock
-yarn-error.log
 /test-results
 /playwright-report
