@@ -1,0 +1,310 @@
+/* Custom CSS with 'wmip-' prefix */
+
+/* ------------------------- */
+
+/* --- GLOBAL & HELPERS ---- */
+
+/* ------------------------- */
+ :root {
+    --wmip-blue: #0071dc;
+    --wmip-dark-blue: #004c91;
+    --wmip-yellow: #ffc220;
+    --wmip-green: #1c882f;
+    --wmip-light-gray: #f2f2f2;
+    --wmip-text-dark: #2e2f32;
+    --wmip-text-light: #57585b;
+}
+/* Custom font-face to mimic Walmart's "Bogle" font */
+ @font-face {
+    font-family:'Bogle';
+    src: url('https://i5.walmartimages.com/dfw/63fd9f59-a78c/fc703f49-2d3a-4e96-b392-564348512599/v1/bogle-regular.woff2') format('woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family:'Bogle';
+    src: url('https://i5.walmartimages.com/dfw/63fd9f59-a78c/fc703f49-2d3a-4e96-b392-564348512599/v1/bogle-bold.woff2') format('woff2');
+    font-weight: 700;
+}
+.wmip-section-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+.wmip-section-subtitle {
+    font-size: 1rem;
+    color: var(--wmip-text-light);
+}
+.wmip-shop-now-btn {
+    background-color: white;
+    color: var(--wmip-text-dark);
+    border: 1px solid var(--wmip-text-dark);
+    border-radius: 999px;
+    font-weight: 700;
+    padding: 6px 20px;
+    font-size: 0.9rem;
+}
+.wmip-shop-now-btn:hover {
+    background-color: #f2f2f2;
+}
+.wmip-link {
+    color: var(--wmip-text-dark);
+    font-weight: 700;
+    text-decoration: underline;
+}
+/* ------------------------- */
+
+/* -------- HEADER --------- */
+
+/* ------------------------- */
+ .wmip-header-top {
+    background-color: var(--wmip-blue);
+    color: white;
+}
+.wmip-search-bar {
+    border-radius: 999px;
+    background-color: white;
+}
+.wmip-search-bar .form-control {
+    border: none;
+    box-shadow: none;
+}
+.wmip-search-bar .btn-search {
+    background-color: var(--wmip-yellow);
+    color: var(--wmip-text-dark);
+    border-radius: 50%;
+}
+.wmip-header-departments {
+    border-bottom: 1px solid #dee2e6;
+}
+/* ------------------------- */
+
+/* ------ PROMO CARDS ------ */
+
+/* ------------------------- */
+ .wmip-promo-card {
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: var(--wmip-text-dark);
+}
+.wmip-promo-card-lg {
+    min-height: 400px;
+}
+.wmip-promo-card-sm {
+    min-height: 190px;
+}
+.wmip-promo-card .wmip-promo-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+.wmip-promo-card .wmip-promo-subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+/* ------------------------- */
+
+/* ---- PRODUCT SLIDER ----- */
+
+/* ------------------------- */
+ .wmip-slider-wrapper {
+    position: relative;
+}
+.wmip-slider-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    gap: 1rem;
+    padding-bottom: 1rem;
+    /* For shadow visibility */
+}
+.wmip-slider-container::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+.wmip-slider-nav {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+.wmip-slider-nav:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.wmip-slider-nav.wmip-slider-prev {
+    left: -20px;
+}
+.wmip-slider-nav.wmip-slider-next {
+    right: -20px;
+}
+.wmip-slider-nav.d-none {
+    opacity: 0;
+    pointer-events: none;
+}
+/* ------------------------- */
+
+/* ----- PRODUCT CARD ------ */
+
+/* ------------------------- */
+ .wmip-product-card {
+    flex: 0 0 auto;
+    width: 200px;
+    border: none;
+    position: relative;
+}
+.wmip-product-card .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    padding: 1rem;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+}
+.wmip-product-card .card-body {
+    padding: 0.75rem 0.25rem;
+}
+.wmip-product-card-price {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.wmip-product-card-old-price {
+    color: var(--wmip-text-light);
+    text-decoration: line-through;
+    font-size: 0.9rem;
+    margin-left: 0.25rem;
+}
+.wmip-product-card-title {
+    font-size: 0.9rem;
+    color: var(--wmip-text-dark);
+    height: 45px;
+    /* Fixed height for 2-3 lines of text */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.wmip-product-card-btn {
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.wmip-wishlist-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wmip-reduced-price-badge {
+    background-color: var(--wmip-blue);
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+/* ------------------------- */
+
+/* ----- OTHER SECTIONS ---- */
+
+/* ------------------------- */
+ .wmip-brand-banner {
+    border-radius: 16px;
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+.wmip-footer-dark {
+    background-color: var(--wmip-dark-blue);
+    color: white;
+}
+.wmip-footer-dark a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.wmip-footer-dark a:hover {
+    text-decoration: underline;
+}
+/* Add these new styles to your existing <style> block */
+ .wmip-signin-nudge {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+}
+.wmip-signin-btn {
+    background-color: transparent;
+    border: 1px solid var(--wmip-dark-blue);
+    color: var(--wmip-dark-blue);
+    padding: 8px 24px;
+}
+.wmip-signin-btn:hover {
+    background-color: #f0f8ff;
+    border-color: var(--wmip-dark-blue);
+    color: var(--wmip-dark-blue);
+}
+.wmip-clearance-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: var(--wmip-yellow);
+    color: var(--wmip-text-dark);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    z-index: 5;
+}
+.wmip-promo-text-dark h3, .wmip-promo-text-dark p {
+    color: var(--wmip-dark-blue);
+}
+.wmip-department-item {
+    flex: 0 0 auto;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.wmip-department-item a {
+    display: block;
+    text-decoration: none;
+    color: var(--wmip-text-dark);
+}
+.wmip-department-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #eee;
+}
+.wmip-department-item a:hover span {
+    text-decoration: underline;
+}
+
+
+
+
+
+
